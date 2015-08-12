@@ -17,6 +17,7 @@ public class StopWatchPanel {
         // Stop Watch Main function
          JFrame frame = new JFrame ("STOP WATCH");
          frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+         frame.getContentPane().add(new StopWatchPanel());
     }
     
 }
