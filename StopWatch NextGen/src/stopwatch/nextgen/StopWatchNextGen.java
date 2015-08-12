@@ -9,7 +9,7 @@ package stopwatch.nextgen;
  *
  * @author Home
  */
-public class StopWatchNextGen {//This is a NextGen StopWatch
+public class StopWatchNextGen {//This is a NextGen StopWatch app
 
     /**
      * @param args the command line arguments
