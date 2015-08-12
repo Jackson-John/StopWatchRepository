@@ -9,7 +9,18 @@
  * @author Anil Jarly
  */
 public class StopwatchStart {
-//test
+public StopWatchPanel() {
+        setLayout(new BorderLayout()); //setting the design layout
+        JPanel t1 = new JPanel();
+        JPanel t3 = new JPanel();
+        lbSecond = new JLabel("0" + Second);
+        lbSecond.setFont(new Font("TimesRoman" , Font.BOLD , SIZE)); //Assigning font
+        TitledBorder titled = new TitledBorder("'");
+        TitledBorder titled1 = new TitledBorder("\")");
+        lbSecond.setBorder(titled);
+         
+        
+    }
     /**
      * @param args the command line arguments
      */
