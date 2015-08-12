@@ -15,6 +15,7 @@ public class StopWatchPanel {
      */
     public static void main(String[] args) {
         // Stop Watch Main function
+         JFrame frame = new JFrame ("STOP WATCH");
     }
     
 }
