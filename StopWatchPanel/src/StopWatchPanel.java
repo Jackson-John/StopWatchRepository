@@ -29,7 +29,11 @@ import javax.swing.*;
  * @author Jackson
  */
 public class StopWatchPanel {
-
+    //initializing variables
+private static int Second = 0;
+    private static int tenthSecond = 0;
+    private static Timer timer;
+    
     /**
      * @param args the command line arguments
      */
