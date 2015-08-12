@@ -9,7 +9,7 @@ package stopwatch;
  *
  * @author Home
  */
-public class StopWatch {//This is a test program
+public class StopWatch {//This is a test program for Stopwatch
 
     /**
      * @param args the command line arguments
