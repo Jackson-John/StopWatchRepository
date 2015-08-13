@@ -10,6 +10,14 @@
  */
 public class StopWatchVarun {
 //test program
+    public void actionPerformed(ActionEvent event)
+        {
+            DecimalFormat fmt= new DecimalFormat("00");
+            if (event.getActionCommand().equals("START")){
+                btnWatch.setText("STOP");
+                btnReset.setEnabled(false);
+                timer.start();
+            }
     /**
      * @param args the command line arguments
      */
