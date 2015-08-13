@@ -25,6 +25,17 @@ public class StopWatchVarun {
                 lbTenthSecond.setText("" +fmt.format(tenthSecond));
                 btnWatch.setText("START");
             }
+            else if (event.getActionCommand().equals("RESUME")){
+                timer.start();
+                btnWatch.setText("STOP");
+                btnReset.setEnabled(false);
+            } else {
+                timer.stop();
+                btnWatch.setText("RESUME");
+                btnReset.setEnabled(true);
+            }
+        }
+
     /**
      * @param args the command line arguments
      */
