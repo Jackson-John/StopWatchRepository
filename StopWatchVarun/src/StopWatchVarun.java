@@ -18,6 +18,13 @@ public class StopWatchVarun {
                 btnReset.setEnabled(false);
                 timer.start();
             }
+            else if (event.getActionCommand().equals("RESET")){
+                Second=0;
+                tenthSecond=0;
+                lbSecond.setText("" + fmt.format(Second));
+                lbTenthSecond.setText("" +fmt.format(tenthSecond));
+                btnWatch.setText("START");
+            }
     /**
      * @param args the command line arguments
      */
